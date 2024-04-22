@@ -1,0 +1,88 @@
+
+.search{
+    
+     flex: 1;
+     font-size:14px;
+     font-family: Roboto,Arial;
+     font-family:400;
+     min-width: 100px;
+     width:10px;
+     height: 30px;
+     padding-left: 20px;
+     border-width:thin;
+     border-radius: 5px;
+     background-color:rgb(242, 244, 246);
+    box-shadow: inset 1px 1px 3px rgb(212, 206, 206) ;
+   }
+    .header{
+        height: 55px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 0%;
+        align-items: center;
+        position:fixed;
+        top:0;
+        left:0;
+        right:0;
+        background-color: white;;
+       border-bottom-width:1px;
+       border-bottom-style:solid;
+       border-bottom-color:rgb(207, 202, 202);
+
+    }
+    .left-section{
+       display: flex;
+        align-items: center;
+
+        
+    }
+    .Right-section{
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+        width:300px;
+        margin-right: 20px;
+        
+    }
+    .Mid-section{
+        display: flex;
+        flex:1;
+   
+        align-items: center;
+        max-width: 700px;
+       
+    }
+    .img1{
+        height: 25px;
+    }
+    .drop{
+        height: 40px;
+        margin-left: 20px;
+        margin-right: 18px;
+    }
+    .sea{
+        height: 25px;
+        border: 1px;
+    }
+    button{
+        background-color: rgba(255, 255, 255, 0.87);
+        margin: 5px;
+        border: 1px
+    }
+    .mic{
+        height: 30px;
+        border-color: rgb(217, 227, 227);
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px rgb(219, 227, 227);
+    }
+    .ad{
+        height: 35px;
+       background-color: white;
+       border-color: rgb(217, 227, 227);
+       border-width: 1px;
+       border-style: solid;
+       border-radius: 20px;
+    }
